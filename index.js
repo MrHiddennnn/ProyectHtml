@@ -3,9 +3,9 @@ function btnYes(){
 }
 function btnNo(){
 
-    var randomLeft = Math.random()* (screen.width - 1) + 1;;
+    var randomLeft = Math.random()* (2000- 0) + 1;;
 
-    var randomBottom = Math.random()* (screen.height - 1) + 1;
+    var randomBottom = Math.random()* (2000 - 1000) + 1;
 
     var btnNo = document.getElementById('btnNo')
 
